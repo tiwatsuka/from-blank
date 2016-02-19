@@ -3,7 +3,7 @@
 <!-- this file should be place at CATALINA_HOME/conf/Catalina/localhost/secure-login-web.xml -->
 <Context>
    <Loader className="org.apache.catalina.loader.VirtualWebappLoader"
-        virtualClasspath="/opt/tomcat/tomcat/webapps-env-jars/spring-functionaltest-env-tomcat-postgresql/*.jar" />
+        virtualClasspath="/opt/tomcat/tomcat/webapps-env-jars/secure-login-env-local/*.jar" />
    <JarScanner scanAllDirectories="true" />
 </Context>
    
