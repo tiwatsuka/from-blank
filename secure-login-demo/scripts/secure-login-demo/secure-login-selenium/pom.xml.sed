@@ -1,0 +1,54 @@
+# add dependencies
+62i\
+\
+        <dependency>\
+            <groupId>org.hamcrest</groupId>\
+            <artifactId>hamcrest-library</artifactId>\
+        </dependency>
+62i\
+\
+        <dependency>\
+		    <groupId>org.postgresql</groupId>\
+    		<artifactId>postgresql</artifactId>\
+    		<scope>provided</scope>\
+		</dependency>
+62i\
+\
+        <dependency>\
+            <groupId>org.terasoluna.gfw</groupId>\
+            <artifactId>terasoluna-gfw-web</artifactId>\
+            <scope>test</scope>\
+            <exclusions>\
+                <exclusion>\
+                    <groupId>org.terasoluna.gfw</groupId>\
+                    <artifactId>terasoluna-gfw-common</artifactId>\
+                </exclusion>\
+                <exclusion>\
+                    <groupId>javax.servlet</groupId>\
+                    <artifactId>jstl</artifactId>\
+                </exclusion>\
+                <exclusion>\
+                    <groupId>org.springframework</groupId>\
+                    <artifactId>spring-beans</artifactId>\
+                </exclusion>\
+                <exclusion>\
+                    <groupId>org.springframework</groupId>\
+                    <artifactId>spring-context</artifactId>\
+                </exclusion>\
+                <exclusion>\
+                    <groupId>org.springframework</groupId>\
+                    <artifactId>spring-core</artifactId>\
+                </exclusion>\
+                <exclusion>\
+                    <groupId>org.springframework</groupId>\
+                    <artifactId>spring-expression</artifactId>\
+                </exclusion>\
+            </exclusions>\
+        </dependency>
+62i\
+\
+        <dependency>\
+            <groupId>com.h2database</groupId>\
+            <artifactId>h2</artifactId>\
+            <scope>test</scope>\
+        </dependency>
