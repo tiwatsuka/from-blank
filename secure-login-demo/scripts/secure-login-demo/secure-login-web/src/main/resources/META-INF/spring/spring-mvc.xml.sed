@@ -1,5 +1,5 @@
 # add interceptor
-__END_BEAN_DEFINITION_LINE__i\
+__END_INTERCEPTOR_DEFINITION_LINE__i\
 \
 		<mvc:interceptor>\
 			<mvc:mapping path="/**" />\
@@ -12,6 +12,6 @@ __END_BEAN_DEFINITION_LINE__i\
 		</mvc:interceptor>
 
 # add controller
-__END_INTERCEPTOR_DEFINITION_LINE__i\
+__END_BEAN_DEFINITION_LINE__i\
 \
 	<mvc:view-controller path="/login" view-name="login/login" />
