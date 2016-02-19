@@ -1,5 +1,5 @@
 # add bean definitions
-59i\
+__END_BEAN_DEFINITION_LINE__i\
 \
 	<bean id="lengthRule" class="org.passay.LengthRule">\
 		<property name="minimumLength" value="${security.passwordMinimumLength}" />\
@@ -89,12 +89,12 @@
 	</task:scheduled-tasks>
 
 # add namespace
-5i\
+__END_NAMESPACE_LINE__i\
 	xmlns:task="http://www.springframework.org/schema/task"\
 	xmlns:util="http://www.springframework.org/schema/util"\
 
 # add schemaLocation
-6i\
+__SCHEMALOCATION_LINE__i\
         http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task.xsd\
         http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd
 

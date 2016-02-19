@@ -1,5 +1,5 @@
 # add dependencies
-138i\
+__END_DEPENDENCIES_LINE__i\
 \
         <dependency>\
             <groupId>org.projectlombok</groupId>\

@@ -1,5 +1,5 @@
 # add bean definitions
-46i\
+__END_BEAN_DEFINITION_LINE__i\
 \
 	<bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">\
 		<property name="host" value="${mail.host}" />\
@@ -29,11 +29,11 @@
 	<bean id="greenMailBean" class="com.icegreen.greenmail.spring.GreenMailBean" />
 
 # add namespace
-5i\
+__END_NAMESPACE_LINE__i\
 	xmlns:cache="http://www.springframework.org/schema/cache"\
 
 # add schemaLocation
-7i\
+__SCHEMALOCATION_LINE__i\
         http://www.springframework.org/schema/cache http://www.springframework.org/schema/cache/spring-cache.xsd
 
 

@@ -1,5 +1,5 @@
 # add bean definitions
-16i\
+__END_BEAN_DEFINITION_LINE__i\
 \
 	<bean id="realDataSource" class="org.apache.commons.dbcp2.BasicDataSource"\
 		destroy-method="close">\
@@ -80,9 +80,9 @@
     <bean class="org.terasoluna.securelogin.selenium.WebDriverCreator" />\
 
 # add namespace
-5i\
+__END_NAMESPACE_LINE__i\
     xmlns:tx="http://www.springframework.org/schema/tx"\
 
 # add schemaLocation
-6i\
+__SCHEMALOCATION_LINE__i\
                         http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd

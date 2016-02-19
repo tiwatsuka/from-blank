@@ -1,3 +1,3 @@
-135i\
+__JAVA_VERSION_LINE__i\
         <java-version>1.8</java-version>
-135d
+__JAVA_VERSION_LINE__d

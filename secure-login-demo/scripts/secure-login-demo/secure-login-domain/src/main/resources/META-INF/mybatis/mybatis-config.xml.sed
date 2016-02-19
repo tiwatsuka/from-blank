@@ -1,9 +1,9 @@
 # add type aliases
-26i\
+__END_TYPEALIASES_LINE__i\
 \
 		<package name="org.terasoluna.securelogin.infra.mybatis.typehandler" />
 
 # add type handlers
-32i\
+__END_TYPEHANDLERS_LINE__i\
 \
 		<package name="org.terasoluna.securelogin.infra.mybatis.typehandler" />

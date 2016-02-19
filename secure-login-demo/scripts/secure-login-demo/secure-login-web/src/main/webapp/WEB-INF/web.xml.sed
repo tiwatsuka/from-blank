@@ -1,5 +1,5 @@
 # add definitions
-126i\
+__END_WEB_APP_DEFINITION_LINE__i\
 \
     <servlet>\
         <servlet-name>H2Console</servlet-name>\

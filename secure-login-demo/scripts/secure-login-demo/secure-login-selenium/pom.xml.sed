@@ -1,18 +1,16 @@
 # add dependencies
-62i\
+__END_DEPENDENCIES_LINE__i\
 \
         <dependency>\
             <groupId>org.hamcrest</groupId>\
             <artifactId>hamcrest-library</artifactId>\
-        </dependency>
-62i\
+        </dependency>\
 \
         <dependency>\
 		    <groupId>org.postgresql</groupId>\
     		<artifactId>postgresql</artifactId>\
     		<scope>provided</scope>\
-		</dependency>
-62i\
+		</dependency>\
 \
         <dependency>\
             <groupId>org.terasoluna.gfw</groupId>\
@@ -44,8 +42,7 @@
                     <artifactId>spring-expression</artifactId>\
                 </exclusion>\
             </exclusions>\
-        </dependency>
-62i\
+        </dependency>\
 \
         <dependency>\
             <groupId>com.h2database</groupId>\

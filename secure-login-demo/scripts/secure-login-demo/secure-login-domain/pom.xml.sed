@@ -1,5 +1,5 @@
 # add dependencies
-99i\
+__END_DEPENDENCIES_LINE__i\
 \
     	<dependency>\
             <groupId>org.springframework</groupId>\
